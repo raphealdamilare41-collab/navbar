@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+.edozzier-logo{
+    display: flex;
+    align-items: center;
+
+}
+.edozzier-logo img{
+    width: 50px;
+    height: 30px;
+    margin-right: 10px;
+}
+.nav-links li{
+    display: inline-block;
+}
+.nav-links li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.nav-links{
+    margin: 10px;
+    text-align: center;
+}
+.nav-section li{
+    display: inline-block;
+    color: white;
+}
+.nav-section{
+    margin: 10px;
+}
+
+.nav-section li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    margin: 5px 10px;
+    border: solid 1px;
+    border-radius: 20px;
+}
+
+.parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 10px;
+}
+
+.text1{
+    background-color:red;
+    color: antiquewhite;
+    padding: 20px;
+}
+.text2{
+    background-color:green;
+    color: antiquewhite;
+    padding: 20px;
+}
+.text3{
+    background-color: brown;
+    color: antiquewhite;
+    padding: 20px;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding: 10px 0px;
+}
+.flex-item{
+    background-color: rebeccapurple;
+    padding: 200px;
+    margin: 10px 10px;
+}

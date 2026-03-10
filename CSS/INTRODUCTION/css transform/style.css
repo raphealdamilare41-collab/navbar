@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.transform{
+    background-color: rebeccapurple;
+   padding: 90px;
+   width: 70px;
+   margin: auto;
+   margin-top: 40px;
+}
+.transform:hover{
+    background-color: black;
+     /* transform: rotatex(45deg);  */
+    /* transform:scaleX(2.5); */
+    /* transform: translateX(200px);  */
+    transform: translate(400px,20px);
+    transition: 2s;
+
+}
+.para{
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}

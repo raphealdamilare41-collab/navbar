@@ -1,0 +1,40 @@
+h1 {
+            color: rgb(238, 255, 0);
+            background-color:   rgb(42, 165, 89);
+        }
+.paragraph{
+    color: rebeccapurple;
+    text-align: center;
+    text-decoration: 2xp solid overline red;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 900;
+}
+.para:last-child {
+background-color: black;
+color: antiquewhite;
+}
+
+.good{ 
+    font-size: 2rem;
+ text-align: center;   
+}
+
+.para:first-child{
+    background-color: black;
+    color: blueviolet;
+}
+
+.para:nth-child(2){
+    background-color: bisque;
+    color: blue;
+}
+.nice{
+    font-size: 1.3rem;
+    text-align: left;
+}
+
+.body{
+    background-color: black ;
+}
+ 
